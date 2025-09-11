@@ -1,0 +1,43 @@
+theme = "lotusdocs"
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'catalog'
+
+[module]
+    # replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    # [[module.imports]]
+    #     path = "github.com/colinwilson/lotusdocs"
+    #     disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+# google_fonts = [["Inter", "300, 400, 600, 700"],["Fira Code", "500, 700"]]
+# sans_serif_font = 'Inter'
+# secondary_font = 'Inter'
+
+[params.social]
+github = 'eissar'
+twitter = 'eshaanissar'
+
+[params.docs]
+pathName = 'catalog'
+intLinkTooltip = true
+
+# [params.share]
+# enable = true
+# addThisId = ""
+# inlineToolId = ""
+
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
