@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Userchrome on catalog</title>
+    <link>http://localhost:1313/tags/userchrome/</link>
+    <description>Recent content in Userchrome on catalog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2025 22:07:19 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/userchrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/catalog/user-facing-commands.userchrome-js/</link>
+      <pubDate>Wed, 10 Sep 2025 22:07:19 -0400</pubDate>
+      <guid>http://localhost:1313/catalog/user-facing-commands.userchrome-js/</guid>
+      <description>&lt;h2 id=&#34;user-facing-commands&#34;&gt;User facing commands &lt;a href=&#34;#user-facing-commands&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;User facing commands are commands or functions which are meant to be used&#xA;by users&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-are-commands-defined--used&#34;&gt;how are commands defined / used? &lt;a href=&#34;#how-are-commands-defined--used&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;Using keymaps to execute commands or Lua functions&lt;/li&gt;&#xA;&lt;li&gt;Auto Commands (&lt;code&gt;autocmd&lt;/code&gt;) to trigger actions on events&lt;/li&gt;&#xA;&lt;li&gt;Filetype plugins (&lt;code&gt;ftplugin&lt;/code&gt;) to set up buffer-specific behavior&lt;/li&gt;&#xA;&lt;li&gt;Within LSP &lt;code&gt;on_attach&lt;/code&gt; functions for buffer-local LSP client setup&#xA;// command bar:&lt;/li&gt;&#xA;&lt;li&gt;Through user-defined commands (e.g., &lt;code&gt;:MyCustomCommand&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Sourcing Vim script or Lua files (&lt;code&gt;:source path/to/file.vim&lt;/code&gt;, &lt;code&gt;:luafile path/to/file.lua&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Calling Vim functions (e.g., &lt;code&gt;:call MyFunction()&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Direct execution of Lua code from the command line (e.g., &lt;code&gt;:lua print(&amp;quot;Hello from Lua&amp;quot;)&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;As part of a plugin&amp;rsquo;s configuration, often in &lt;code&gt;init.lua&lt;/code&gt; or &lt;code&gt;config&lt;/code&gt; functions for plugin managers&lt;/li&gt;&#xA;&lt;li&gt;Executing shell commands (e.g., &lt;code&gt;:!ls&lt;/code&gt;, &lt;code&gt;:term&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In userchrome, we can define a command with a&#xA;&lt;command&gt; XULElement&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
