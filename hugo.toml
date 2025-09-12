@@ -30,7 +30,7 @@ github = 'eissar'
 twitter = 'eshaanissar'
 
 [params.docs]
-pathName = 'catalog'
+# pathName = 'catalog'
 intLinkTooltip = true
 
 # [params.share]
