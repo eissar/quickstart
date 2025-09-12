@@ -30,6 +30,7 @@ github = 'eissar'
 twitter = 'eshaanissar'
 
 [params.docs]
+darkMode = true
 # pathName = 'catalog'
 intLinkTooltip = true
 
