@@ -2,20 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/catalog/test/</loc>
-    <lastmod>2025-09-10T22:29:21-04:00</lastmod>
+    <loc>http://localhost:1313/catalog/user-facing-commands.userchrome-js/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-10T22:29:21-04:00</lastmod>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/catalog/</loc>
-    <lastmod>2025-09-10T22:29:21-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catalog/example-pag/</loc>
     <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/userchrome/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catalog/example-page/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catalog/snippets.userchrome-js/</loc>
+    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catalog/absolute-emotional-language.philosophy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/catalog/john-locke-indexing-commonplacing.notetaking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/catalog/markdown-syntax/</loc>
+  </url><url>
+    <loc>http://localhost:1313/catalog/automation.map/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/catalog/shounen-manga.writing/</loc>
   </url>
 </urlset>

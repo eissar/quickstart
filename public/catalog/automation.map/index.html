@@ -20,10 +20,9 @@
 
 <html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Userchrome.js Snippets | catalog</title>
+    <title>automation | catalog</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="n/a">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -36,15 +35,51 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-<meta property="og:title" content="Userchrome.js Snippets" />
-<meta property="og:description" content="n/a" />
+<meta property="og:title" content="automation" />
+<meta property="og:description" content="
+Dumb people want smart things to work for them.
+Smart people know things are to fucking stupid to work without being controlled.
+
+Random internet user, 2025-03
+
+
+A COMPUTER
+CAN NEVER BE HELD ACCOUNTABLE
+THEREFORE A COMPUTER MUST NEVER
+MAKE A MANAGEMENT DECISION
+
+IBM slide circa 1979
+
+
+&ldquo;Once men turned their thinking over to
+machines in the hope that this would set
+them free. But that only permitted other men
+with machines to enslave them.&rdquo;" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/catalog/snippets.userchrome-js/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_daf47bc885b1e03.png"/><meta property="article:section" content="catalog" />
-<meta property="article:published_time" content="2024-09-11T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-09-11T00:00:00+00:00" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_daf47bc885b1e03.png"/>
-<meta name="twitter:title" content="Userchrome.js Snippets"/>
-<meta name="twitter:description" content="n/a"/>
+<meta property="og:url" content="http://localhost:1313/catalog/automation.map/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_3f545941bb13e992.png"/><meta property="article:section" content="catalog" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_3f545941bb13e992.png"/>
+<meta name="twitter:title" content="automation"/>
+<meta name="twitter:description" content="
+Dumb people want smart things to work for them.
+Smart people know things are to fucking stupid to work without being controlled.
+
+Random internet user, 2025-03
+
+
+A COMPUTER
+CAN NEVER BE HELD ACCOUNTABLE
+THEREFORE A COMPUTER MUST NEVER
+MAKE A MANAGEMENT DECISION
+
+IBM slide circa 1979
+
+
+&ldquo;Once men turned their thinking over to
+machines in the hope that this would set
+them free. But that only permitted other men
+with machines to enslave them.&rdquo;"/>
 
     
         <link rel="alternate" type="application/atom+xml" title="Atom feed for catalog" href="/index.xml" />
@@ -101,7 +136,7 @@
                 
                     
                         
-                        <li class="current">
+                        <li class="">
                             <a class="sidebar-root-link" href="http://localhost:1313/catalog/snippets.userchrome-js/">
                                 
                                 Userchrome.js Snippets
@@ -141,7 +176,7 @@
                 
                     
                         
-                        <li class="">
+                        <li class="current">
                             <a class="sidebar-root-link" href="http://localhost:1313/catalog/automation.map/">
                                 
                                 automation
@@ -307,7 +342,7 @@
             
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Userchrome.js Snippets</span>
+                <span itemprop="name">automation</span>
                 <meta itemprop="position" content='2' />
             </li>
         
@@ -320,7 +355,7 @@
     <div class="fw-bold text-uppercase mb-2">On this page</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#snippets">snippets</a></li>
+    <li><a href="#references">References</a></li>
   </ul>
 </nav>
     </toc></div>
@@ -332,14 +367,14 @@
                                             </button>
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
-    <li><a href="#snippets">snippets</a></li>
+    <li><a href="#references">References</a></li>
   </ul>
 </nav></div>
                                         <div class="docs-content col-12 col-xl-9 mt-0">
                                             <div class="mb-0 d-flex">
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    Userchrome.js Snippets
+                                                    automation
                                                     
                                                 </h1>
                                             </div>
@@ -348,79 +383,41 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <p>test added change</p>
-<h2 id="snippets">snippets <a href="#snippets" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2>
-
-    
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">setClipboard</span><span class="p">(</span><span class="nx">dat</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="nx">Cc</span><span class="p">[</span><span class="s2">&#34;@mozilla.org/supports-string;1&#34;</span><span class="p">].</span><span class="nx">createInstance</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">Ci</span><span class="p">.</span><span class="nx">nsISupportsString</span>
-</span></span><span class="line"><span class="cl">  <span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">str</span><span class="p">.</span><span class="nx">data</span> <span class="o">=</span> <span class="nx">dat</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">transferable</span> <span class="o">=</span> <span class="nx">Cc</span><span class="p">[</span><span class="s2">&#34;@mozilla.org/widget/transferable;1&#34;</span><span class="p">].</span><span class="nx">createInstance</span><span class="p">(</span><span class="nx">Ci</span><span class="p">.</span><span class="nx">nsITransferable</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">transferable</span><span class="p">.</span><span class="nx">init</span><span class="p">(</span><span class="nx">getLoadContext</span><span class="p">());</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">transferable</span><span class="p">.</span><span class="nx">addDataFlavor</span><span class="p">(</span><span class="s2">&#34;text/plain&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">transferable</span><span class="p">.</span><span class="nx">setTransferData</span><span class="p">(</span><span class="s2">&#34;text/plain&#34;</span><span class="p">,</span> <span class="nx">str</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">Services</span><span class="p">.</span><span class="nx">clipboard</span><span class="p">.</span><span class="nx">setData</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">transferable</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="kc">null</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">Ci</span><span class="p">.</span><span class="nx">nsIClipboard</span><span class="p">.</span><span class="nx">kGlobalClipboard</span>
-</span></span><span class="line"><span class="cl">  <span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
-
-
-    
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">gBrowser</span><span class="p">.</span><span class="nx">adoptTab</span>
-</span></span><span class="line"><span class="cl"><span class="nx">a</span> <span class="o">=</span> <span class="nx">UC_API</span><span class="p">.</span><span class="nx">Windows</span><span class="p">.</span><span class="nx">getAll</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="nx">b</span> <span class="o">=</span> <span class="nx">a</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">gBrowser</span><span class="p">.</span><span class="nx">adoptTab</span><span class="p">(</span><span class="nx">t</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">window</span><span class="p">.</span><span class="nx">docShell</span><span class="p">.</span><span class="nx">messageManager</span> <span class="c1">// mm
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// how to store global state?
-</span></span></span><span class="line"><span class="cl"><span class="c1">// with class based objects per-window?
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">globalThis</span><span class="p">.</span><span class="nx">a</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">a</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// open in new tab
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="p">{</span> <span class="nx">BrowserWindowTracker</span> <span class="p">}</span> <span class="o">=</span> <span class="kr">await</span> <span class="kr">import</span><span class="p">(</span><span class="s1">&#39;resource:///modules/BrowserWindowTracker.sys.mjs&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nx">BrowserWindowTracker</span><span class="p">.</span><span class="nx">openWindow</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// get profile path
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">ProfilePathChrome</span> <span class="o">=</span> <span class="nx">PathUtils</span><span class="p">.</span><span class="nx">toFileURI</span><span class="p">(</span><span class="nx">PathUtils</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">PathUtils</span><span class="p">.</span><span class="nx">profileDir</span><span class="p">,</span> <span class="s1">&#39;chrome&#39;</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// open trusted url in new tab
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">URILoadingHelper</span><span class="p">.</span><span class="nx">openTrustedLinkIn</span><span class="p">(</span><span class="nb">window</span><span class="p">,</span> <span class="s1">&#39;about:preferences&#39;</span><span class="p">,</span> <span class="s1">&#39;tab&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// duplicate current tab
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">nt</span> <span class="o">=</span> <span class="nx">gBrowser</span><span class="p">.</span><span class="nx">duplicateTab</span><span class="p">(</span><span class="nx">gBrowser</span><span class="p">.</span><span class="nx">selectedTab</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="nx">gBrowser</span><span class="p">.</span><span class="nx">selectedTab</span> <span class="o">=</span> <span class="nx">nt</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// what&#39;s this?
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">gBrowser</span><span class="p">.</span><span class="nx">selectedBrowser</span><span class="p">.</span><span class="nx">getAttributeNames</span><span class="p">()</span> <span class="c1">// seems like attributes on the &lt;tabbrowser&gt; element.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="c1">// show notification
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">UC_API</span><span class="p">.</span><span class="nx">Notifications</span><span class="p">.</span><span class="nx">show</span><span class="p">({</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">label</span> <span class="o">:</span> <span class="s2">&#34;Welcome to ium! To get the full Geckium experience, download Geckium from Releases or compile your chrome folder.&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">type</span> <span class="o">:</span> <span class="s2">&#34;geckium-notification&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">priority</span><span class="o">:</span> <span class="s2">&#34;critical&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">});</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// get tabs in MRU (most recently used) order.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">SessionStore</span><span class="p">.</span><span class="nx">getCurrentState</span><span class="p">().</span><span class="nx">windows</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">flatMap</span><span class="p">(</span><span class="nx">win</span> <span class="p">=&gt;</span> <span class="nx">win</span><span class="p">.</span><span class="nx">tabs</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">lastAccessed</span> <span class="o">-</span> <span class="nx">a</span><span class="p">.</span><span class="nx">lastAccessed</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// can we navigate to a tab while not updating the
-</span></span></span><span class="line"><span class="cl"><span class="c1">// &#39;lastAccessed&#39; time?
-</span></span></span><span class="line"><span class="cl"><span class="c1">// If not, calling &#39;navigate -1 by lastAccessed time will just switch between two tabs
-</span></span></span><span class="line"><span class="cl"><span class="c1">//
-</span></span></span><span class="line"><span class="cl"><span class="c1">// if so, we can implement functionality like a jumplist
-</span></span></span><span class="line"><span class="cl"><span class="c1">// for buffers in neovim
-</span></span></span></code></pre></div>
+        <blockquote>
+<p>Dumb people want smart things to work for them.
+Smart people know things are to fucking stupid to work without being controlled.</p></blockquote>
+<ul>
+<li>Random internet user, 2025-03</li>
+</ul>
+<blockquote>
+<p>A COMPUTER
+CAN NEVER BE HELD ACCOUNTABLE
+THEREFORE A COMPUTER MUST NEVER
+MAKE A MANAGEMENT DECISION</p></blockquote>
+<ul>
+<li>IBM slide circa 1979</li>
+</ul>
+<blockquote>
+<p>&ldquo;Once men turned their thinking over to
+machines in the hope that this would set
+them free. But that only permitted other men
+with machines to enslave them.&rdquo;</p></blockquote>
+<ul>
+<li>Frank Herbert, Dune</li>
+</ul>
+<blockquote>
+<p>This is how I build systems, both in my life and professionally. <br> * <strong>Humanize</strong>  Do everything manually, on paper if needed, for many iterations. <br> * <strong>Organize</strong>  Notice the patterns that are creeping into your methods. <br> * <strong>Mechanize</strong>  Automate those patterns in a system, either by writing checklists, flowcharts or software.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
+<p>[[humanize-optimize-mechanize]]</p>
+<p>[[#References]]</p>
+<h2 id="references">References <a href="#references" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/0atman/noboilerplate/raw/refs/heads/main/scripts/27-coping-mechanisms.mdb" rel="external" target="_blank">https://github.com/0atman/noboilerplate/raw/refs/heads/main/scripts/27-coping-mechanisms.mdb<svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z"/></svg></a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
     </div>
 
@@ -433,20 +430,20 @@
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/catalog/example-page/">
+		<a href="/catalog/markdown-syntax/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> UserChrome.js</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> </p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/catalog/absolute-emotional-language.philosophy/">
+		<a class="ms-auto" href="/catalog/shounen-manga.writing/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"> <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Shounen Manga <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>
