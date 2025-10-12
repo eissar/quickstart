@@ -10,3 +10,6 @@
 [submodule "content/catalog"]
 	path = content/catalog
 	url = https://github.com/eissar/catalog
+[submodule "themes/lotusdocs"]
+	path = themes/lotusdocs
+	url = https://github.com/colinwilson/lotusdocs
