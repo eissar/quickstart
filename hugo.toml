@@ -1,5 +1,5 @@
 theme = "lotusdocs"
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'catalog'
 
