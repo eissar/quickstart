@@ -1,5 +1,5 @@
 theme = "lotusdocs"
-baseURL = '/'
+baseURL = '/quickstart/'
 languageCode = 'en-us'
 title = 'catalog'
 
