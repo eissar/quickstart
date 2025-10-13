@@ -31,7 +31,7 @@ twitter = 'eshaanissar'
 
 [params.docs]
 darkMode = true
-# pathName = 'catalog'
+pathName = 'quickstart'
 intLinkTooltip = true
 
 # [params.share]
