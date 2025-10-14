@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/catalog/user-facing-commands.userchrome-js/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/catalog/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/tags/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/tags/userchrome/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/catalog/example-page/</loc><lastmod>2025-09-10T22:07:19-04:00</lastmod></url><url><loc>/catalog/snippets.userchrome-js/</loc><lastmod>2024-09-11T00:00:00+00:00</lastmod></url><url><loc>/catalog/absolute-emotional-language.philosophy/</loc></url><url><loc>/catalog/john-locke-indexing-commonplacing.notetaking/</loc></url><url><loc>/catalog/markdown-syntax/</loc></url><url><loc>/catalog/automation.map/</loc></url><url><loc>/categories/</loc></url><url><loc>/catalog/shounen-manga.writing/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/quickstart/catalog/user-facing-commands.userchrome-js/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/tags/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/tags/userchrome/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/example-page/</loc>
+    <lastmod>2025-09-10T22:07:19-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/snippets.userchrome-js/</loc>
+    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/absolute-emotional-language.philosophy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/john-locke-indexing-commonplacing.notetaking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/markdown-syntax/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/automation.map/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/quickstart/catalog/shounen-manga.writing/</loc>
+  </url>
+</urlset>
