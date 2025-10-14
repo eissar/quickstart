@@ -1,5 +1,5 @@
 theme = "lotusdocs"
-baseURL = 'https://eissar.github.com/quickstart'
+baseURL = 'https://eissar.github.io/quickstart'
 languageCode = 'en-us'
 title = 'catalog'
 
